@@ -134,7 +134,7 @@ hr{
     filter: invert(27%) sepia(65%) saturate(1558%) hue-rotate(339deg) brightness(93%) contrast(89%);
 }
 
-@media (max-width:900px){
+@media only screen and (max-width:900px){
     #bawks{
         width:90%;
     }
