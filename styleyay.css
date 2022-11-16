@@ -142,4 +142,12 @@ hr{
     h1{
         font-size: 5em;
     }
+    
+    #bighokke{
+        width:50%;
+        transition:width .5s ease;
+    }
+    #bighokke:hover{
+        width:53%;
+    }
 }
