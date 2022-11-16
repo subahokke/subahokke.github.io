@@ -1,0 +1,130 @@
+body{
+    background-color: #FDD387;
+}
+
+@font-face {
+    font-family: HelveticaNow;
+    src: url(https://dl.dropbox.com/s/zfymi8fbpnsq2ns/HelveticaNowDisplayXBlk.otf);
+  }
+h1{
+    color:#003554;
+    font-size: 4em;
+    font-family:HelveticaNow;
+}
+
+#subheading{
+    color:#B53E2C;
+    font-family:lato;
+    font-size:2em;
+    font-weight: 700;
+}
+
+
+@keyframes squish{
+    0% {transform:scale(1,1);}
+    50% {transform:scale(1.5,.5);}
+    100% {transform:scale(1,1);}
+}
+
+#bodytext{
+    color:#1F5875;
+    font-family:lato;
+    overflow-x:wrap;
+    width:250px;
+    text-align: justify;
+    font-size:1.25em;
+}
+
+#biggerbox{
+    display:flex;
+    width:100%;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+
+hr{
+    color:#d69d2b;
+    border:solid 1px #d69d2b;
+    width:50px;
+    align-self:center;
+}
+
+#bawks{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:75%;
+    gap:.8em;
+}
+
+#textyay{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+#bighokke{
+    border-radius: 25px;
+    width:25%;
+    transition:width .5s ease;
+}
+
+#bighokke:hover{
+    width:27%;
+}
+
+#nameandnui{
+    display:flex;
+    flex-direction: row;
+    width:min-content;
+}
+
+.hokunui{
+    width:30%;
+    height:30%;
+    margin-top:10px;
+    transform:scale(1, 1);
+}
+
+.hokunuianimate{
+    margin-top:10px;
+    width:30%;
+    height:30%;
+    transform:scale(1, 1);
+    animation:squish .6s cubic-bezier(.5,0,0,1) .6s;
+}
+
+#extraabout{
+    width:35%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#abouttext{
+    color:#1F5875;
+    font-family: lato;
+    text-align:justify;
+    font-size:1.25em;
+}
+
+#icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.icon{
+    width:30px;
+    filter: invert(27%) sepia(65%) saturate(1558%) hue-rotate(339deg) brightness(93%) contrast(89%);
+}
+
+@media only screen and (max-width:800px){
+    #bawks{
+        width:90%;
+    }
+}

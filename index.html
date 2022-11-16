@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>talke</title>
+    <link rel="stylesheet" href="styleyay.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+        function ani() {
+            document.getElementById('img').className = 'hokunuianimate';
+            element = document.getElementById("img");
+            element.addEventListener("click", function(e) {
+                e.preventDefault;
+                element.classList.remove("hokunuianimate");
+                void element.offsetWidth;
+                element.classList.add("hokunuianimate");
+            }, false);
+        }
+        $(document).ready(function(){
+            $('#bighokke').click(function() {
+                $('#extraabout').slideToggle();
+            });
+        });
+      </script>
+      <audio id="audio" src="etc/squeakytoy.mp3"></audio>
+    <div id="biggerbox">
+        <div id="bawks">
+            <img src="images/hoku.jpg" id="bighokke">
+            <div id="textyay">
+                <div id="nameandnui"><h1 style="margin-bottom: 0px; margin-top: 0px;">talek</h1><img src="images/hokunui.png" id= "img" class="hokunui" onclick="play();ani();"></div>
+                <p style="margin-bottom: 0px; margin-top: -25px;" id="subheading" title="please only trans people use she on me<3">he/she/ey ⋆ eng/pl</p>
+                <hr>
+                <p style="margin-bottom: 0px; margin-top: 0px;" id="bodytext">cs major. hokuto hidaka is my girlfriend and i love to share. subahokke and poly trickstar enthusiast. project fairy truther. i don't bite :] click hokke for more!</p>
+            </div>
+        </div>
+        <div id="extraabout" style="display:none;">
+            <p id="abouttext">hi! i'm talek/kazimierz. tal or kazi for short works too :] i love all things hokuto! i'm 19, white(first gen polish-american), and autistic, and my special interests are ensemble stars and geology. i also love idolmaster, graphic design, video editing, drawing, fashion, and more! i made this website all by myself too :] let's be friends!</p>
+            <div id="icons"><a href="https://twitter.com/dramaclubP"><img src="images/twitter.svg" class="icon"></a><a href="https://instagram.com/hidakahokuto"><img src="images/instagram.svg" class="icon"></a></div>
+        </div>
+    </div>
+</body>
