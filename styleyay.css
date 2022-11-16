@@ -2,7 +2,7 @@ body{
     background-color: #FDD387;
 }
 
-@import url(//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
+@import url(fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
 
 @font-face {
     font-family: HelveticaNow;
@@ -16,7 +16,7 @@ h1{
 
 #subheading{
     color:#B53E2C;
-    font-family:Lato;
+    font-family:Lato, sans-serif;
     font-size:2em;
     font-weight: 700;
 }
@@ -30,7 +30,7 @@ h1{
 
 #bodytext{
     color:#1F5875;
-    font-family:Lato;
+    font-family:Lato, sans-serif;
     overflow-x:wrap;
     width:250px;
     text-align: justify;
@@ -108,7 +108,7 @@ hr{
 
 #abouttext{
     color:#1F5875;
-    font-family:Lato;
+    font-family:Lato, sans-serif;
     text-align:justify;
     font-size:1.25em;
 }
