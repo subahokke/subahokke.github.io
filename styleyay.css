@@ -16,7 +16,7 @@ h1{
 
 #subheading{
     color:#B53E2C;
-    font-family:lato;
+    font-family:Lato;
     font-size:2em;
     font-weight: 700;
 }
@@ -30,7 +30,7 @@ h1{
 
 #bodytext{
     color:#1F5875;
-    font-family:lato;
+    font-family:Lato;
     overflow-x:wrap;
     width:250px;
     text-align: justify;
@@ -108,7 +108,7 @@ hr{
 
 #abouttext{
     color:#1F5875;
-    font-family: lato;
+    font-family:Lato;
     text-align:justify;
     font-size:1.25em;
 }
