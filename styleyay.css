@@ -28,6 +28,8 @@ h1{
     color:#B53E2C;
     font-family:LatoBold, sans-serif;
     font-size:2em;
+    font-weight:700;
+    z-index:2;
 }
 
 
@@ -98,6 +100,7 @@ hr{
     height:30%;
     margin-top:10px;
     transform:scale(1, 1);
+    z-index:1;
 }
 
 .hokunuianimate{
@@ -106,6 +109,7 @@ hr{
     height:30%;
     transform:scale(1, 1);
     animation:squish .6s cubic-bezier(.5,0,0,1) .6s;
+    z-index:1;
 }
 
 #extraabout{
@@ -134,20 +138,55 @@ hr{
     filter: invert(27%) sepia(65%) saturate(1558%) hue-rotate(339deg) brightness(93%) contrast(89%);
 }
 
-@media only screen and (max-width:900px){
+@media (max-width:900px){
     #bawks{
-        width:90%;
+        width:fit-content;
     }
     
+
     h1{
-        font-size: 5em;
+        font-size: 3em;
     }
     
+    #subheading{
+        font-size:1.25em;
+    }
+
+    #nameandnui{
+        margin-bottom:10px;
+    }
+
+    #bodytext{
+        font-size:1em;
+        width:160px;
+        line-height: .9em;
+    }
+
     #bighokke{
         width:50%;
         transition:width .5s ease;
     }
     #bighokke:hover{
         width:53%;
+    }
+    #extraabout{
+        width:85%;
+    }
+
+    #abouttext{
+        font-size:1em;
+        line-height: .9em;
+    }
+
+    .hokunui{
+        width:30%;
+        height:30%;
+        margin-top:5px;
+    }
+    
+    .hokunuianimate{
+        margin-top:5px;
+        width:30%;
+        height:30%;
     }
 }
