@@ -5,8 +5,19 @@ body{
 
 @font-face {
     font-family: HelveticaNow;
-    src: url(https://dl.dropbox.com/s/zfymi8fbpnsq2ns/HelveticaNowDisplayXBlk.otf);
+    src: url(etc/HelveticaNowDisplayXBlk.otf);
   }
+
+@font-face {
+    font-family: Lato;
+    src: url(etc/Lato-Regular.ttf);
+  }
+
+@font-face {
+    font-family: LatoBold;
+    src: url(etc/Lato-Bold.ttf);
+  }
+
 h1{
     color:#003554;
     font-size: 4em;
@@ -15,9 +26,8 @@ h1{
 
 #subheading{
     color:#B53E2C;
-    font-family:Lato, sans-serif;
+    font-family:LatoBold, sans-serif;
     font-size:2em;
-    font-weight: 700;
 }
 
 
